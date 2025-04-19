@@ -1,0 +1,43 @@
+# Fichiers de l'IDE IntelliJ
+.idea/
+*.iml
+*.iws
+out/
+
+# Build Maven
+target/
+
+# Build Gradle
+build/
+.gradle/
+!gradle/wrapper/gradle-wrapper.jar
+
+# Logs
+*.log
+
+# Fichiers système
+.DS_Store
+Thumbs.db
+
+# Configs utilisateurs
+*.swp
+*.bak
+*.tmp
+
+# Cache Spring Boot devtools
+.spring-boot-devtools.properties
+.spring-boot-devtools/
+
+# Environnements locaux
+.env
+*.env
+
+# fichiers de tests ou couvertures
+test-output/
+jacoco.exec
+*.ec
+
+# Fichiers générés
+generated/
+
+Front/
