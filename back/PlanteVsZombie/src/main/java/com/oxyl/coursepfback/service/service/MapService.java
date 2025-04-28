@@ -9,7 +9,7 @@ import org.springframework.stereotype.Service;
 import java.util.List;
 
 @Service
-public class MapService {
+public class MapService implements MapInterfaceSercive {
     private final MapRepository mapRepository;
     private final ZombieRepository zombieRepository;
 

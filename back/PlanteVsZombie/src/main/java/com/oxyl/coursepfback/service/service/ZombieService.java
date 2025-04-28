@@ -9,7 +9,7 @@ import org.springframework.stereotype.Service;
 import java.util.List;
 
 @Service
-public class ZombieService {
+public class ZombieService implements ZombieInterfaceService {
 
     private final ZombieRepository zombieRepository;
 

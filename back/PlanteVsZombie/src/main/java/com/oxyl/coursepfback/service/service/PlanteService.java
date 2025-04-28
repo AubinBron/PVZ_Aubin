@@ -9,7 +9,7 @@ import org.springframework.stereotype.Service;
 import java.util.List;
 
 @Service
-public class PlanteService {
+public class PlanteService implements PlanteInterfaceService {
     private final PlanteRepository planteRepository;
 
     @Autowired

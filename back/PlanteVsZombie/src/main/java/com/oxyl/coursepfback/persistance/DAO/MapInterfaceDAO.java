@@ -15,6 +15,8 @@ public interface MapInterfaceDAO {
     public void deleteMap(int mapId);
 
     public void updateMap(int id, MapEntity mapEntity);
+
+    public List<Integer> getAllMapIds();
 }
 
 /*
